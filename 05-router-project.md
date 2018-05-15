@@ -51,7 +51,9 @@ _Fun Note:_ There's no reason you can't change the CSS, if you'd like! The CSS f
 )}/>
 ```
 
-##### A good article that discusses passing props to a component: https://tylermcginnis.com/react-router-pass-props-to-components/
+##### A good article that discusses how to pass props to a component: 
+- https://tylermcginnis.com/react-router-pass-props-to-components/
+
 ##### Articles about the spread operator: 
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 - [6 great uses of the spread operator](https://davidwalsh.name/spread-operator)
