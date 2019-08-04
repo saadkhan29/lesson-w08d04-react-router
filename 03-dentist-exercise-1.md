@@ -208,36 +208,78 @@ name of the component to its new name, then replace the JSX in the
 `render() { ... }` function with custom content. Be sure to import each new
 component into `App.js` just like we did with the `Home` component.
 
-You can put your own content to be rendered by each component if you'd like. Refer to these complete files in the finished repo to make sure you got
+You can put your own content to be rendered by each component if you'd like. Refer to these complete files to make sure you got
 everything correct:
 
-* [Procedures.js](../../../react-router-simple-dentist-site/blob/master/src/procedures.js)
-* [Contact.js](../../../react-router-simple-dentist-site/blob/master/src/contact.js)
+<details>
+  <summary>Procedures</summary>
+  
+  ```js
+  import React from 'react';
+
+  export default function Procedures() {
+    return (
+      <div>
+        <h1>Procedures</h1>
+        <p>Here at Dentist Office we provide a wide variety of procedures. We accept all sorts of insurance and have competitive uninsured payment plans. Find the service you need and visit our contact page to find out how to reach out to us to make the appointment you need!</p>
+        <ul>
+          <li>General Checkups</li>
+          <li>Teeth Cleaning</li>
+          <li>Cavity Screenings</li>
+          <li>Cavity Fillings</li>
+          <li>Chipped Tooth Fixings</li>
+          <li>Tooth Removal</li>
+          <li>Root Canals</li>
+        </ul>
+      </div>
+    );
+  }  
+  ```
+
+</details>
+
+<br>
+
+<details>
+  <summary>Contact</summary>
+  
+  ```js
+  import React from 'react';
+
+  export default function Contact() {
+    return (
+      <div>
+        <h1>Contact</h1>
+        <p>Call, email or drop by any time. We're open Monday through Friday from 9AM until 5PM. If you call during our off hours and leave a message then we'll get back to you.</p>
+        <p>frontdesk@dentistoffice.com</p>
+        <p> (800) MY-TEETH <br /> 1 (800) 698-3384 </p>
+        <p>123 Main Street <br /> Dental Town, USA 99555</p>
+      </div>
+    )
+  }
+  ```
+
+</details>
 
 Now that we have our components made, there's nothing stopping us from importing multiple components into our App.js. So now, we have:
 
 **App.js**
 ```js
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-
-import Home from './Home';
+import Home from './Home'
 import Procedures from './Procedures';
 import Contact from './Contact';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Home></Home>
-        <Procedures></Procedures>
-        <Contact></Contact>
-      </div>
-    )
-  }
+export default function App() {
+  return (
+    <div>
+      <Home />
+      <Procedures />
+      <Contact />
+    </div>
+  );
 }
-
-export default App
 ```
 
 
