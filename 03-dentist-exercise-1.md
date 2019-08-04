@@ -37,7 +37,7 @@ You are going to follow along, so that you have a locally working React Router a
 Now let's make the dentist project. In your terminal, use `create-react-app` to make a new project called `dentist-website`:
 
 ```
-$ create-react-app dentist-website
+$ npm init react-app dentist-website
 $ cd dentist-website
 $ npm start
 ```
@@ -74,7 +74,7 @@ a dependency in our project.
 In your terminal, enter:
 
 ```sh
-$ npm install --save react-router-dom
+$ npm install react-router-dom
 ```
 
 * `npm install` is the command used to install libraries to our project.
