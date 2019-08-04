@@ -238,8 +238,6 @@ everything correct:
 
 </details>
 
-<br>
-
 <details>
   <summary>Contact</summary>
   
@@ -264,6 +262,7 @@ everything correct:
 Now that we have our components made, there's nothing stopping us from importing multiple components into our App.js. So now, we have:
 
 **App.js**
+
 ```js
 import React from 'react';
 import './App.css';
@@ -286,3 +285,5 @@ export default function App() {
 > Check yourself! You should see all of content for each of the pages all stacked on top of each
 other on the homepage. If you don't see content from all three of your components, something is wrong. You must fix this before continuing. Always
 do simple things before doing complex things!
+
+![](https://i.imgur.com/dvmqbCE.png)
