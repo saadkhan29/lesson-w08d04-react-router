@@ -78,10 +78,6 @@ $ npm install react-router-dom
 ```
 
 * `npm install` is the command used to install libraries to our project.
-* The `--save` flag tells `npm install` to save the thing we're downloading to
-  our `package.json` file as a dependency. Saving the library as a dependency
-  makes it easy for us to copy our project to another machine and just run
-  `npm install` to install all of the dependencies for our project.
 * `react-router-dom` is the official name of **React Router**
 
 So, in summary, we're telling `npm install` to find the library package called
