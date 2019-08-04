@@ -212,26 +212,23 @@ And now the nav bar will have spaces like it should.  Try it!
 Here's what our final `App.js` looks like:
 
 ```js
-class App extends Component {
-  render() {
-    return (
-      <Router>
-        <div>
-          <nav>
-            <Link to="/">Go to Home Page</Link>{' '}
-            <Link to="/procedures">See Our Procedures</Link>{' '}
-            <Link to="/contact">Contact Us!</Link>
-          </nav>
-          <Route exact path="/" component={Home} />
-          <Route path="/procedures" component={Procedures} />
-          <Route path="/contact" component={Contact} />
-        </div>
-      </Router>
-    )
-  }
-}
+export default function App() {
+  return (
+    <Router>
+      <nav>
+        <Link to="/">Home</Link>{' '}
+        <Link to="/procedures">Procedures</Link>{' '}
+        <Link to="/contact">Contact</Link>
+      </nav>
 
-export default App
+      <div>
+        <Route exact path="/" component={Home} />
+        <Route path="/procedures" component={Procedures} />
+        <Route path="/contact" component={Contact} />
+      </div>
+    </Router>
+  );
+}
 ```
 
 > Check it out! Does yours work?
