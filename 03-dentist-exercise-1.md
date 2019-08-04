@@ -84,10 +84,6 @@ So, in summary, we're telling `npm install` to find the library package called
 `react-router-dom`, install the package, and save the name of our package to our
 file that keeps track of all the packages for our project.
 
-If you don't use the `--save` flag then `npm install` will still find the
-package and download it. It just won't save the package to your `package.json`
-file, which allows you to easily install all of your saved dependencies if you later move to another machine.
-
 # Create Custom Homepage
 
 Let's start the app again. Enter the command `npm start` in your terminal.
@@ -108,23 +104,21 @@ Let's add one `<h1>` that says `Dentist Website` and a paragraph with some short
 
 **App.js**
 ```js
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
+function App() {
+  return (
       <div>
         <h1>Dentist Website</h1>
         <p>
           Welcome to my dentist website.
         </p>
       </div>
-    )
-  }
+  );
 }
 
-export default App
+export default App;
 ```
 
 Great! Now we have a simple homepage set up. Let's move on to getting the rest
@@ -167,40 +161,37 @@ created and imported the `Home` component.
 
 **App.js**
 ```js
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Home from './Home';
+import Home from './Home'
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Home></Home>
-      </div>
-    )
-  }
+function App() {
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 }
-export default App
+
+export default App;
 ```
 
 **Home.js**
 ```js
-import React, { Component } from 'react';
+import React from 'react';
 
-class Home extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Dentist Website</h1>
-        <p>
-          Welcome to my dentist website.
-        </p>
-      </div>
-    )
-  }
+function Home() {
+  return (
+    <div>
+      <h1>Dentist Website</h1>
+      <p>
+        Welcome to my dentist website.
+      </p>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
 ```
 
 # Create Components for Procedures and Contact
