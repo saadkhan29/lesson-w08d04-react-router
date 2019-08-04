@@ -21,18 +21,16 @@ what component users will see when they navigate to the path.
 Delete what is currently returned in the `render` function of your `App.js`, and replace it with a Router component call with three routes, as shown below.
 
 ```js
-class App extends Component {
-  render() {
-    return (
-      <Router>
-        <div>
-          <Route exact path="/" component={Home} />
-          <Route path="/procedures" component={Procedures} />
-          <Route path="/contact" component={Contact} />
-        </div>
-      </Router>
-    )
-  }
+export default function App() {
+  return (
+    <Router>
+      <div>
+        <Route exact path="/" component={Home} />
+        <Route path="/procedures" component={Procedures} />
+        <Route path="/contact" component={Contact} />
+      </div>
+    </Router>
+  );
 }
 ```
 
