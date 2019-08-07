@@ -79,3 +79,8 @@ export default function Procedures(props) {
   )
 }
 ```
+
+## Additional Resources
+
+- [Pass props in React Router](https://learnwithparam.com/blog/how-to-pass-props-in-react-router/)
+- [Map over props in stateless component](https://stackoverflow.com/questions/52745604/how-to-use-es6-map-function-in-react-stateless-component)
