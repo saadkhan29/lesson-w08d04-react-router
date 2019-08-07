@@ -34,7 +34,7 @@ _Fun Note:_ There's no reason you can't change the CSS, if you'd like! The CSS f
 
 
 <details>
-  <summary>`App.css`</summary>
+  <summary>App.css</summary>
 
   ```css
   @import url('https://fonts.googleapis.com/css?family=Spectral:500,700');
