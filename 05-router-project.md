@@ -15,8 +15,6 @@ Now let's put that to the test!
 
 ## You Do: Implement Router
 
-[STARTER CODE](https://github.com/sei-eternity/lab-w08d04-react-router-blog)
-
 Let's go back to our blog project.
 
 You've been told your blog needs to have five pages:
