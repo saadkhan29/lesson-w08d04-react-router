@@ -87,7 +87,7 @@ file that keeps track of all the packages for our project.
 
 Let's start the app again. Enter the command `npm start` in your terminal.
 
-Let's get rid of the standard "Welcome to React" page and replace it with our
+Let's get rid of the standard page and replace it with our
 own dentist website home page. Continue editing `App.js`: take out most of the JSX contents, and delete the import statement for `logo.svg`, which we won't use.
 
 The `App.js` file contains one component that our whole app will live inside
