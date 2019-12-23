@@ -49,8 +49,7 @@ file in your editor.
 
 Remember, `App.js` contains our main application (it's what's called by `index.js`). You should see the basic JSX structure
 of the standard React starter page. Make sure the file is the same thing you're
-looking at in the browser by finding the text `Welcome to React` inside an
-`<h2>` element.
+looking at in the browser by finding some the text inside in any element.
 
 Change the text to say `Hello!`, save the file and make sure
 you see the changes automatically appear in your browser.
