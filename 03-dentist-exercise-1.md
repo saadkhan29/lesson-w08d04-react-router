@@ -28,7 +28,6 @@ In the below codealong, we will walk through building this out together.
 
 You can see a live working copy of the site [here](https://react-router-dentist.herokuapp.com/).
 
-You are going to follow along, so that you have a locally working React Router application! However, if you'd like at any point to refer to the finished code, you can see all of the final code [here](https://github.com/saadkhan29/lesson-w08d04-react-router-dentist-app).
 
 ## In Your Terminal
 
