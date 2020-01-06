@@ -15,7 +15,7 @@ Here's how we'll route our single-page application:
 | /procedures    | `<Procedures>` | A list of all dentist procedures.                |
 | /contact       | `<Contact>`    | A page with an address, phone number, and email. |
 
-Remember, the URL routes are paths off our main website. We could put our
+Remember, the URL routes are paths of our main website. We could put our
 website at any domain, like `www.ourdentistwebsite.com` or
 `www.premiumdental.com`, and the URL route paths would behave the same. Paths
 only care about what comes after the domain name.
